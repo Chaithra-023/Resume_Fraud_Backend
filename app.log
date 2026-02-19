@@ -188,3 +188,51 @@
 2026-02-19 22:16:18,536 | INFO     | resume_fraud | Running fraud checks on: Sample_Resume_Rahul_Sharma.pdf
 2026-02-19 22:16:18,537 | INFO     | resume_fraud | Fraud result for Sample_Resume_Rahul_Sharma.pdf — score: 0, status: Genuine
 2026-02-19 22:16:18,565 | INFO     | resume_fraud | Result stored (id=3): score=0, status=Genuine
+2026-02-19 23:56:19,710 | INFO     | resume_fraud | Logging initialised — file: C:\Users\DELL\Documents\Resume_Fraud_Backend\app.log
+2026-02-19 23:56:19,719 | DEBUG    | passlib.registry | registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2026-02-19 23:56:20,122 | INFO     | resume_fraud | Application started — tables created, uploads dir ready
+2026-02-19 23:57:33,007 | DEBUG    | multipart.multipart | Calling on_part_begin with no data
+2026-02-19 23:57:33,007 | DEBUG    | multipart.multipart | Calling on_header_field with data[42:61]
+2026-02-19 23:57:33,007 | DEBUG    | multipart.multipart | Calling on_header_value with data[63:132]
+2026-02-19 23:57:33,011 | DEBUG    | multipart.multipart | Calling on_header_end with no data
+2026-02-19 23:57:33,011 | DEBUG    | multipart.multipart | Calling on_header_field with data[134:146]
+2026-02-19 23:57:33,011 | DEBUG    | multipart.multipart | Calling on_header_value with data[148:163]
+2026-02-19 23:57:33,011 | DEBUG    | multipart.multipart | Calling on_header_end with no data
+2026-02-19 23:57:33,011 | DEBUG    | multipart.multipart | Calling on_headers_finished with no data
+2026-02-19 23:57:33,013 | DEBUG    | multipart.multipart | Calling on_part_data with data[167:2584]
+2026-02-19 23:57:33,013 | DEBUG    | multipart.multipart | Calling on_part_end with no data
+2026-02-19 23:57:33,014 | DEBUG    | multipart.multipart | Calling on_end with no data
+2026-02-19 23:57:33,056 | WARNING  | resume_fraud | JWT decode failed for a request
+2026-02-19 23:57:52,726 | DEBUG    | multipart.multipart | Calling on_field_start with no data
+2026-02-19 23:57:52,728 | DEBUG    | multipart.multipart | Calling on_field_name with data[0:8]
+2026-02-19 23:57:52,728 | DEBUG    | multipart.multipart | Calling on_field_data with data[9:12]
+2026-02-19 23:57:52,729 | DEBUG    | multipart.multipart | Calling on_field_end with no data
+2026-02-19 23:57:52,729 | DEBUG    | multipart.multipart | Calling on_field_start with no data
+2026-02-19 23:57:52,730 | DEBUG    | multipart.multipart | Calling on_field_name with data[13:21]
+2026-02-19 23:57:52,730 | DEBUG    | multipart.multipart | Calling on_field_data with data[22:28]
+2026-02-19 23:57:52,731 | DEBUG    | multipart.multipart | Calling on_field_end with no data
+2026-02-19 23:57:52,732 | DEBUG    | multipart.multipart | Calling on_end with no data
+2026-02-19 23:57:52,736 | INFO     | resume_fraud | Login attempt for username: Ram
+2026-02-19 23:57:52,754 | DEBUG    | passlib.handlers.bcrypt | detected 'bcrypt' backend, version '4.0.1'
+2026-02-19 23:57:52,755 | DEBUG    | passlib.handlers.bcrypt | 'bcrypt' backend lacks $2$ support, enabling workaround
+2026-02-19 23:57:53,165 | INFO     | resume_fraud | Token issued for user: Ram
+2026-02-19 23:58:05,036 | DEBUG    | multipart.multipart | Calling on_part_begin with no data
+2026-02-19 23:58:05,037 | DEBUG    | multipart.multipart | Calling on_header_field with data[42:61]
+2026-02-19 23:58:05,037 | DEBUG    | multipart.multipart | Calling on_header_value with data[63:132]
+2026-02-19 23:58:05,037 | DEBUG    | multipart.multipart | Calling on_header_end with no data
+2026-02-19 23:58:05,038 | DEBUG    | multipart.multipart | Calling on_header_field with data[134:146]
+2026-02-19 23:58:05,039 | DEBUG    | multipart.multipart | Calling on_header_value with data[148:163]
+2026-02-19 23:58:05,039 | DEBUG    | multipart.multipart | Calling on_header_end with no data
+2026-02-19 23:58:05,039 | DEBUG    | multipart.multipart | Calling on_headers_finished with no data
+2026-02-19 23:58:05,040 | DEBUG    | multipart.multipart | Calling on_part_data with data[167:2584]
+2026-02-19 23:58:05,040 | DEBUG    | multipart.multipart | Calling on_part_end with no data
+2026-02-19 23:58:05,042 | DEBUG    | multipart.multipart | Calling on_end with no data
+2026-02-19 23:58:05,045 | INFO     | resume_fraud | Resume upload by user 'Ram': Suspicious_Resume_Rahul_Sharma.pdf
+2026-02-19 23:58:05,060 | INFO     | resume_fraud | File saved: C:\Users\DELL\Documents\Resume_Fraud_Backend\uploads\Suspicious_Resume_Rahul_Sharma.pdf
+2026-02-19 23:58:05,061 | INFO     | resume_fraud | Extracting text from PDF: C:\Users\DELL\Documents\Resume_Fraud_Backend\uploads\Suspicious_Resume_Rahul_Sharma.pdf
+2026-02-19 23:58:05,097 | INFO     | resume_fraud | Running fraud checks on: Suspicious_Resume_Rahul_Sharma.pdf
+2026-02-19 23:58:05,099 | DEBUG    | resume_fraud | Missing GitHub URL in Suspicious_Resume_Rahul_Sharma.pdf
+2026-02-19 23:58:05,099 | DEBUG    | resume_fraud | LinkedIn name mismatch: rohit-kumar-tech vs Rahul Sharma
+Email
+2026-02-19 23:58:05,101 | INFO     | resume_fraud | Fraud result for Suspicious_Resume_Rahul_Sharma.pdf — score: 55, status: Suspicious
+2026-02-19 23:58:05,118 | INFO     | resume_fraud | Result stored (id=4): score=55, status=Suspicious
