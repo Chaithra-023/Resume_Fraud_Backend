@@ -94,3 +94,52 @@
 2026-02-19 21:09:59,934 | INFO     | resume_fraud | Fraud result for Druthi M.pdf — score: 50, status: Suspicious
 2026-02-19 21:09:59,950 | INFO     | resume_fraud | Result stored (id=1): score=50, status=Suspicious
 2026-02-19 21:11:42,970 | INFO     | resume_fraud | Fetching results for user: Druthi
+2026-02-19 21:39:46,524 | INFO     | resume_fraud | Logging initialised — file: C:\Users\DELL\Documents\Resume_Fraud_Backend\app.log
+2026-02-19 21:39:46,530 | DEBUG    | passlib.registry | registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2026-02-19 21:39:46,687 | INFO     | resume_fraud | Application started — tables created, uploads dir ready
+2026-02-19 21:40:06,002 | INFO     | resume_fraud | Signup attempt for username: Druthi
+2026-02-19 21:40:33,089 | DEBUG    | multipart.multipart | Calling on_field_start with no data
+2026-02-19 21:40:33,089 | DEBUG    | multipart.multipart | Calling on_field_name with data[0:8]
+2026-02-19 21:40:33,091 | DEBUG    | multipart.multipart | Calling on_field_data with data[9:15]
+2026-02-19 21:40:33,091 | DEBUG    | multipart.multipart | Calling on_field_end with no data
+2026-02-19 21:40:33,091 | DEBUG    | multipart.multipart | Calling on_field_start with no data
+2026-02-19 21:40:33,092 | DEBUG    | multipart.multipart | Calling on_field_name with data[16:24]
+2026-02-19 21:40:33,092 | DEBUG    | multipart.multipart | Calling on_field_data with data[25:31]
+2026-02-19 21:40:33,092 | DEBUG    | multipart.multipart | Calling on_field_end with no data
+2026-02-19 21:40:33,093 | DEBUG    | multipart.multipart | Calling on_end with no data
+2026-02-19 21:40:33,098 | INFO     | resume_fraud | Login attempt for username: Druthi
+2026-02-19 21:40:33,100 | DEBUG    | passlib.handlers.bcrypt | detected 'bcrypt' backend, version '4.0.1'
+2026-02-19 21:40:33,101 | DEBUG    | passlib.handlers.bcrypt | 'bcrypt' backend lacks $2$ support, enabling workaround
+2026-02-19 21:40:33,524 | WARNING  | resume_fraud | Failed login for username: Druthi
+2026-02-19 21:41:03,371 | INFO     | resume_fraud | Signup attempt for username: Ram
+2026-02-19 21:41:03,768 | INFO     | resume_fraud | User created: Ram (id=3)
+2026-02-19 21:41:19,892 | DEBUG    | multipart.multipart | Calling on_field_start with no data
+2026-02-19 21:41:19,893 | DEBUG    | multipart.multipart | Calling on_field_name with data[0:8]
+2026-02-19 21:41:19,894 | DEBUG    | multipart.multipart | Calling on_field_data with data[9:12]
+2026-02-19 21:41:19,895 | DEBUG    | multipart.multipart | Calling on_field_end with no data
+2026-02-19 21:41:19,896 | DEBUG    | multipart.multipart | Calling on_field_start with no data
+2026-02-19 21:41:19,896 | DEBUG    | multipart.multipart | Calling on_field_name with data[13:21]
+2026-02-19 21:41:19,896 | DEBUG    | multipart.multipart | Calling on_field_data with data[22:28]
+2026-02-19 21:41:19,898 | DEBUG    | multipart.multipart | Calling on_field_end with no data
+2026-02-19 21:41:19,899 | DEBUG    | multipart.multipart | Calling on_end with no data
+2026-02-19 21:41:19,902 | INFO     | resume_fraud | Login attempt for username: Ram
+2026-02-19 21:41:20,295 | INFO     | resume_fraud | Token issued for user: Ram
+2026-02-19 21:59:19,089 | DEBUG    | multipart.multipart | Calling on_part_begin with no data
+2026-02-19 21:59:19,089 | DEBUG    | multipart.multipart | Calling on_header_field with data[42:61]
+2026-02-19 21:59:19,089 | DEBUG    | multipart.multipart | Calling on_header_value with data[63:110]
+2026-02-19 21:59:19,091 | DEBUG    | multipart.multipart | Calling on_header_end with no data
+2026-02-19 21:59:19,091 | DEBUG    | multipart.multipart | Calling on_header_field with data[112:124]
+2026-02-19 21:59:19,091 | DEBUG    | multipart.multipart | Calling on_header_value with data[126:141]
+2026-02-19 21:59:19,092 | DEBUG    | multipart.multipart | Calling on_header_end with no data
+2026-02-19 21:59:19,092 | DEBUG    | multipart.multipart | Calling on_headers_finished with no data
+2026-02-19 21:59:19,093 | DEBUG    | multipart.multipart | Calling on_part_data with data[145:74765]
+2026-02-19 21:59:19,094 | DEBUG    | multipart.multipart | Calling on_part_end with no data
+2026-02-19 21:59:19,095 | DEBUG    | multipart.multipart | Calling on_end with no data
+2026-02-19 21:59:19,098 | INFO     | resume_fraud | Resume upload by user 'Ram': Druthi M.pdf
+2026-02-19 21:59:19,100 | INFO     | resume_fraud | File saved: C:\Users\DELL\Documents\Resume_Fraud_Backend\uploads\Druthi M.pdf
+2026-02-19 21:59:19,101 | INFO     | resume_fraud | Extracting text from PDF: C:\Users\DELL\Documents\Resume_Fraud_Backend\uploads\Druthi M.pdf
+2026-02-19 21:59:19,208 | INFO     | resume_fraud | Running fraud checks on: Druthi M.pdf
+2026-02-19 21:59:19,209 | DEBUG    | resume_fraud | Missing GitHub URL in Druthi M.pdf
+2026-02-19 21:59:19,210 | DEBUG    | resume_fraud | Missing LinkedIn URL in Druthi M.pdf
+2026-02-19 21:59:19,212 | INFO     | resume_fraud | Fraud result for Druthi M.pdf — score: 50, status: Suspicious
+2026-02-19 21:59:19,228 | INFO     | resume_fraud | Result stored (id=2): score=50, status=Suspicious
