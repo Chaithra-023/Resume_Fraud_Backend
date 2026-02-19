@@ -1,0 +1,96 @@
+2026-02-19 20:39:50,837 | INFO     | resume_fraud | Logging initialised — file: C:\Users\DELL\Documents\Resume_Fraud_Backend\backend\app.log
+2026-02-19 20:39:50,891 | DEBUG    | passlib.registry | registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2026-02-19 20:39:52,770 | INFO     | resume_fraud | Application started — tables created, uploads dir ready
+2026-02-19 20:41:09,731 | INFO     | resume_fraud | Signup attempt for username: testuser
+2026-02-19 20:41:09,745 | DEBUG    | passlib.handlers.bcrypt | detected 'bcrypt' backend, version '4.0.1'
+2026-02-19 20:41:09,745 | DEBUG    | passlib.handlers.bcrypt | 'bcrypt' backend lacks $2$ support, enabling workaround
+2026-02-19 20:41:10,181 | INFO     | resume_fraud | User created: testuser (id=1)
+2026-02-19 20:41:46,481 | DEBUG    | multipart.multipart | Calling on_field_start with no data
+2026-02-19 20:41:46,481 | DEBUG    | multipart.multipart | Calling on_field_name with data[0:8]
+2026-02-19 20:41:46,481 | DEBUG    | multipart.multipart | Calling on_field_data with data[9:17]
+2026-02-19 20:41:46,481 | DEBUG    | multipart.multipart | Calling on_field_end with no data
+2026-02-19 20:41:46,481 | DEBUG    | multipart.multipart | Calling on_field_start with no data
+2026-02-19 20:41:46,481 | DEBUG    | multipart.multipart | Calling on_field_name with data[18:26]
+2026-02-19 20:41:46,484 | DEBUG    | multipart.multipart | Calling on_field_data with data[27:35]
+2026-02-19 20:41:46,484 | DEBUG    | multipart.multipart | Calling on_field_end with no data
+2026-02-19 20:41:46,484 | DEBUG    | multipart.multipart | Calling on_end with no data
+2026-02-19 20:41:46,487 | INFO     | resume_fraud | Login attempt for username: testuser
+2026-02-19 20:41:46,898 | INFO     | resume_fraud | Token issued for user: testuser
+2026-02-19 20:42:10,403 | DEBUG    | multipart.multipart | Calling on_end with no data
+2026-02-19 20:44:43,219 | INFO     | resume_fraud | Logging initialised — file: C:\Users\DELL\Documents\Resume_Fraud_Backend\backend\app.log
+2026-02-19 20:44:43,226 | DEBUG    | passlib.registry | registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2026-02-19 20:44:43,428 | INFO     | resume_fraud | Application started — tables created, uploads dir ready
+2026-02-19 20:49:08,809 | INFO     | resume_fraud | Logging initialised — file: C:\Users\DELL\Documents\Resume_Fraud_Backend\backend\app.log
+2026-02-19 20:49:08,815 | DEBUG    | passlib.registry | registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2026-02-19 20:49:09,042 | INFO     | resume_fraud | Application started — tables created, uploads dir ready
+2026-02-19 20:54:20,635 | INFO     | resume_fraud | Logging initialised — file: C:\Users\DELL\Documents\Resume_Fraud_Backend\app.log
+2026-02-19 20:54:20,642 | DEBUG    | passlib.registry | registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2026-02-19 20:54:20,819 | INFO     | resume_fraud | Application started — tables created, uploads dir ready
+2026-02-19 20:56:05,997 | INFO     | resume_fraud | Logging initialised — file: C:\Users\DELL\Documents\Resume_Fraud_Backend\app.log
+2026-02-19 20:56:06,002 | DEBUG    | passlib.registry | registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2026-02-19 20:56:06,212 | INFO     | resume_fraud | Application started — tables created, uploads dir ready
+2026-02-19 21:00:18,802 | INFO     | resume_fraud | Signup attempt for username: Druthi
+2026-02-19 21:00:18,816 | DEBUG    | passlib.handlers.bcrypt | detected 'bcrypt' backend, version '4.0.1'
+2026-02-19 21:00:18,816 | DEBUG    | passlib.handlers.bcrypt | 'bcrypt' backend lacks $2$ support, enabling workaround
+2026-02-19 21:00:19,146 | INFO     | resume_fraud | User created: Druthi (id=2)
+2026-02-19 21:02:55,077 | DEBUG    | multipart.multipart | Calling on_field_start with no data
+2026-02-19 21:02:55,078 | DEBUG    | multipart.multipart | Calling on_field_name with data[0:10]
+2026-02-19 21:02:55,078 | DEBUG    | multipart.multipart | Calling on_field_data with data[11:19]
+2026-02-19 21:02:55,079 | DEBUG    | multipart.multipart | Calling on_field_end with no data
+2026-02-19 21:02:55,079 | DEBUG    | multipart.multipart | Calling on_field_start with no data
+2026-02-19 21:02:55,079 | DEBUG    | multipart.multipart | Calling on_field_name with data[20:28]
+2026-02-19 21:02:55,080 | DEBUG    | multipart.multipart | Calling on_field_data with data[29:35]
+2026-02-19 21:02:55,080 | DEBUG    | multipart.multipart | Calling on_field_end with no data
+2026-02-19 21:02:55,080 | DEBUG    | multipart.multipart | Calling on_field_start with no data
+2026-02-19 21:02:55,082 | DEBUG    | multipart.multipart | Calling on_field_name with data[36:44]
+2026-02-19 21:02:55,082 | DEBUG    | multipart.multipart | Calling on_field_data with data[45:49]
+2026-02-19 21:02:55,083 | DEBUG    | multipart.multipart | Calling on_field_end with no data
+2026-02-19 21:02:55,084 | DEBUG    | multipart.multipart | Calling on_field_start with no data
+2026-02-19 21:02:55,085 | DEBUG    | multipart.multipart | Calling on_field_name with data[50:55]
+2026-02-19 21:02:55,086 | DEBUG    | multipart.multipart | Calling on_field_end with no data
+2026-02-19 21:02:55,088 | DEBUG    | multipart.multipart | Calling on_field_start with no data
+2026-02-19 21:02:55,089 | DEBUG    | multipart.multipart | Calling on_field_name with data[57:66]
+2026-02-19 21:02:55,090 | DEBUG    | multipart.multipart | Calling on_field_data with data[67:73]
+2026-02-19 21:02:55,091 | DEBUG    | multipart.multipart | Calling on_field_end with no data
+2026-02-19 21:02:55,092 | DEBUG    | multipart.multipart | Calling on_field_start with no data
+2026-02-19 21:02:55,092 | DEBUG    | multipart.multipart | Calling on_field_name with data[74:87]
+2026-02-19 21:02:55,092 | DEBUG    | multipart.multipart | Calling on_field_data with data[88:94]
+2026-02-19 21:02:55,093 | DEBUG    | multipart.multipart | Calling on_field_end with no data
+2026-02-19 21:02:55,093 | DEBUG    | multipart.multipart | Calling on_end with no data
+2026-02-19 21:02:55,097 | INFO     | resume_fraud | Login attempt for username: Druthi
+2026-02-19 21:02:55,390 | INFO     | resume_fraud | Token issued for user: Druthi
+2026-02-19 21:06:04,501 | DEBUG    | multipart.multipart | Calling on_field_start with no data
+2026-02-19 21:06:04,502 | DEBUG    | multipart.multipart | Calling on_field_name with data[0:10]
+2026-02-19 21:06:04,503 | DEBUG    | multipart.multipart | Calling on_field_data with data[11:19]
+2026-02-19 21:06:04,503 | DEBUG    | multipart.multipart | Calling on_field_end with no data
+2026-02-19 21:06:04,503 | DEBUG    | multipart.multipart | Calling on_field_start with no data
+2026-02-19 21:06:04,504 | DEBUG    | multipart.multipart | Calling on_field_name with data[20:28]
+2026-02-19 21:06:04,504 | DEBUG    | multipart.multipart | Calling on_field_data with data[29:35]
+2026-02-19 21:06:04,504 | DEBUG    | multipart.multipart | Calling on_field_end with no data
+2026-02-19 21:06:04,505 | DEBUG    | multipart.multipart | Calling on_field_start with no data
+2026-02-19 21:06:04,505 | DEBUG    | multipart.multipart | Calling on_field_name with data[36:44]
+2026-02-19 21:06:04,505 | DEBUG    | multipart.multipart | Calling on_field_data with data[45:49]
+2026-02-19 21:06:04,506 | DEBUG    | multipart.multipart | Calling on_field_end with no data
+2026-02-19 21:06:04,506 | DEBUG    | multipart.multipart | Calling on_end with no data
+2026-02-19 21:06:04,509 | INFO     | resume_fraud | Login attempt for username: Druthi
+2026-02-19 21:06:04,782 | INFO     | resume_fraud | Token issued for user: Druthi
+2026-02-19 21:09:59,806 | DEBUG    | multipart.multipart | Calling on_part_begin with no data
+2026-02-19 21:09:59,807 | DEBUG    | multipart.multipart | Calling on_header_field with data[42:61]
+2026-02-19 21:09:59,807 | DEBUG    | multipart.multipart | Calling on_header_value with data[63:110]
+2026-02-19 21:09:59,808 | DEBUG    | multipart.multipart | Calling on_header_end with no data
+2026-02-19 21:09:59,809 | DEBUG    | multipart.multipart | Calling on_header_field with data[112:124]
+2026-02-19 21:09:59,809 | DEBUG    | multipart.multipart | Calling on_header_value with data[126:141]
+2026-02-19 21:09:59,811 | DEBUG    | multipart.multipart | Calling on_header_end with no data
+2026-02-19 21:09:59,812 | DEBUG    | multipart.multipart | Calling on_headers_finished with no data
+2026-02-19 21:09:59,813 | DEBUG    | multipart.multipart | Calling on_part_data with data[145:74765]
+2026-02-19 21:09:59,815 | DEBUG    | multipart.multipart | Calling on_part_end with no data
+2026-02-19 21:09:59,816 | DEBUG    | multipart.multipart | Calling on_end with no data
+2026-02-19 21:09:59,823 | INFO     | resume_fraud | Resume upload by user 'Druthi': Druthi M.pdf
+2026-02-19 21:09:59,825 | INFO     | resume_fraud | File saved: C:\Users\DELL\Documents\Resume_Fraud_Backend\uploads\Druthi M.pdf
+2026-02-19 21:09:59,826 | INFO     | resume_fraud | Extracting text from PDF: C:\Users\DELL\Documents\Resume_Fraud_Backend\uploads\Druthi M.pdf
+2026-02-19 21:09:59,931 | INFO     | resume_fraud | Running fraud checks on: Druthi M.pdf
+2026-02-19 21:09:59,933 | DEBUG    | resume_fraud | Missing GitHub URL in Druthi M.pdf
+2026-02-19 21:09:59,933 | DEBUG    | resume_fraud | Missing LinkedIn URL in Druthi M.pdf
+2026-02-19 21:09:59,934 | INFO     | resume_fraud | Fraud result for Druthi M.pdf — score: 50, status: Suspicious
+2026-02-19 21:09:59,950 | INFO     | resume_fraud | Result stored (id=1): score=50, status=Suspicious
+2026-02-19 21:11:42,970 | INFO     | resume_fraud | Fetching results for user: Druthi
